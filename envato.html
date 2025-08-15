@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            display: flex;
+            background: rgb(51, 50, 50);
+        }
+        .envato{
+            color: #fff;
+        }
+        .limited{
+            margin-top: 10px;
+            position: relative;
+            left: 300px;
+            color: #fff;
+        }
+        .hawk{
+            margin-top: 10px;
+            left: 500px;
+            position: relative;
+        }
+        .hawk  button{
+            background:green ;
+        }
+        .container{
+            display: flex;
+            background: #000;
+        }
+        .navs ul{
+            display: flex;
+            list-style-type: none;
+        }
+        .navs ul a{
+            padding: 0 30px;
+        }
+        .oluchi button{
+            width: 190px;
+            height: 50px;
+            background: #fff;
+        }
+        .navs{
+           margin-top: 18px; 
+        }
+        .navs ul a{
+            color: #fff;
+        }
+        h3{
+            color: #fff;
+            font-size: 23px;
+        }
+        .tom{
+            margin-top: 80px;
+        }
+        .jerry{
+            font-size: 4rem;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        hr{
+            width: 400px;
+        }
+        .spider{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(155, 147, 147);
+        }
+        .JIREN{
+            background: black;
+            color: #fff;
+            width: 160px;
+            height: 50px;
+        }
+        .tom{
+            display: flex;
+             background: #ccc; 
+        }
+        img{
+            width: 400px;
+            background: #ccc;
+        }
+        .franklin{
+            position: relative;
+        }
+        .image{
+            left: 450px;
+            position: relative;
+        }
+        .jiren{
+            animation-name: rotate;
+            animation-iteration-count: 50s;
+            animation-duration: 3s;
+            animation-delay: 2s;
+        }
+        @keyframes rotate{
+            0%{
+                transform: translateX(30vh);
+            }
+            25%{
+                transform: translateX(50vh);
+            }
+            100%{
+                transform: 30vh;
+                /* transition: 7s; */
+                from {
+                    background: black;
+                }
+               to{
+                background: lightcoral;
+               }
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <h1 class="envato">Envato market</h1>
+        <p class="limited">Limited time offer, buy XTRA wordoress theme only $37</p>
+        <a class="hawk" href="https://1.envato.market/xtra " download="https://1.envato.market/xtra"><button>download XTRA theme</button></a>
+    </div>
+    <div class="container">
+        <div class="promise">
+            <a class="oluchi" href="https://xtratheme.com/furniture/"><button>XTRA</button></a>
+        </div>
+        <div class="navs">
+            <ul>
+                <a href="htpp://2.envato.market/home">HOME</a>
+                <a href="htpp://2.envato.market/blog">BLOG</a>
+                <a href="htpp://2.envato.market/Testimonials">TESTIMONIALS</a>
+                <a href="htpp://2.envato.market/Contact">CONTACT</a>
+                <a href="htpp://2.envato.market/About us">ABOUT US</a>
+                <a href="htpp://2.envato.market/home">GALLERY</a>
+            </ul>
+        </div>
+    </div>
+    <div class="tom">
+        <div class="franklin">
+        <h3>MODERN WHITE</h3>
+        <p class="jerry">Minimal chair</p>
+        <hr>
+        <p class="spider">$79.99</p>
+        <button class="JIREN">BUY NOW</button>
+        </div>
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9lBQ8qQUR9TPIkGMv8K6dugFnSIeUdp0mw&s" alt="">
+        </div>
+    </div>
+</body>
+</html>

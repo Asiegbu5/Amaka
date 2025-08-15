@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .signcards{
+            grid-template-columns: repeat(1, 1fr);
+            display: grid;
+            background: slategray;
+            width: 500px;
+        }
+        input{
+            margin: 7px;
+        }
+        .tom{
+            width: 410px;
+            height:40px ;
+            border-radius: 7px;
+            border: none;
+        }
+        .jerry{
+           width: 410px;
+            height:40px ;
+            border-radius: 7px;
+            border: none; 
+        }
+        .linda{
+           width: 23px;
+            height:20px ;
+            border-radius: 7px;
+            border: none;  
+        }
+        .gunther{
+           width: 410px;
+            height:40px ;
+            border-radius: 7px;
+            border: none;   
+        }
+        .romanreigns{
+              width: 410px;
+            height:40px ;
+            border-radius: 7px;
+            border: none;
+        }
+        button{
+            width: 120px;
+            height: 30px;
+        }
+        .signcards{
+            animation-name: rotate;
+            animation-duration: 7s;
+            animation-delay: 1s;
+        }
+        .chloe{
+             width: 410px;
+            height:40px ;
+            border-radius: 7px;
+            border: none;  
+        }
+        button a {
+            border-radius: 4px;
+            padding: 3px;
+            margin: 7px;
+        }
+        @keyframes rotate{
+            0%{
+                transform:translateX(30vh) ;
+            }
+            25%, 50%{
+                transform: translateX(60vh);
+                
+            }
+            100%{
+                background: rgb(75, 209, 133);
+                transform: 40vh;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="signcards">
+        <div class="form">
+            <h2>sign in</h2>
+            <!-- for name -->
+             <label for="name"></label>
+             <input class="tom" type="text" placeholder="Enter your Name" required> 
+             <!-- for password -->
+              <div>
+              <label for="password"></label>
+              <input class="jerry" type="password" placeholder="Enter your password">
+              </div>
+              <!-- for Email -->
+               <div>
+                <label for="Email"></label>
+                <input class="romanreigns" type="Email" placeholder="Enter your Email">
+               </div>
+            <!-- description -->
+             <div>
+                <label for="patients Description/Problem"></label>
+                <textarea  cols="30" rows="10" placeholder="Enter your problem/message"></textarea>
+             </div>
+             <!-- age input -->
+              <div>
+                <label for="age"></label>
+                <input class="gunther" type="age" placeholder="enter your age">
+              </div>
+              <!-- date of birth -->
+               <div>
+                <label for="date"></label>
+                <input class="chloe"  type="date" name="" id="date of birth">
+               </div>
+              <!-- checbox input -->
+               <div>
+                <label for="checkbox"></label>
+                <input class="linda" type="checkbox" placeholder="tooth ache">
+               </div>
+               <button><a href="https://franklin international hospital">book now</a></button>
+        </div>
+    </div>
+</body>
+</html>
